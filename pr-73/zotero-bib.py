@@ -13,8 +13,8 @@ items = zot.top()
 
 def format_name(c):
     if c.get('lastName', '') == 'Cersonsky' and not c.get('firstName', '').startswith('T'):
-        return f"*{c.get('lastName', '')}, {c.get('firstName','')}*"
-    return f"{c.get('lastName', '')}, {c.get('firstName','')}"
+        return f"**RKC**"
+    return f"{c.get('firstName','')} {c.get('lastName', '')}"
 
 def read_date(date):
     date = str(date).replace('-','/')
@@ -43,14 +43,16 @@ for item in reversed(sorted(items, key=lambda item: read_date(item.get('date', 0
             s += f' ({data["issue"]})'
         if check_key(data, 'pages'):
             s += f', {data["pages"]}'
+        if check_key(data, 'itemType'):
+            if data['itemType'] == 'dataset':
+                s += ', **Dataset**'
         if check_key(data, 'url'):
             if 'arxiv' in data['url']:
                 s+= ', _Preprint_'
             s += f' [Link]({data["url"]})'
 
         s+= '.\n'
-        # print([k for k in data.keys() if check_key(data, k)])
-        # print(s)
+        
         entries[year].append(s)
 
 with open(OUTPUT_FILE, 'w') as outf:
