@@ -1,16 +1,19 @@
 
 2025
------ **AniSOAP: Machine Learning Representations for Coarse-grained and Non-spherical Systems** – Lin, Arthur Y., Ortengren, Lucas, Hwang, Seonwoo, Cho, Yong-Cheol, Nigam, Jigyasa, *Cersonsky, Rose K.*, **Journal of Open Source Software** [Link](https://joss.theoj.org/papers/4f031c830d4790cce21dd630588db665).
+----
+- **AniSOAP: Machine Learning Representations for Coarse-grained and Non-spherical Systems** – Lin, Arthur Y., Ortengren, Lucas, Hwang, Seonwoo, Cho, Yong-Cheol, Nigam, Jigyasa, *Cersonsky, Rose K.*, **Journal of Open Source Software** [Link](https://joss.theoj.org/papers/4f031c830d4790cce21dd630588db665).
 - **Interpretable Visualizations of Data Spaces for Classification Problems** – Jorgensen, Christian, Lin, Arthur Y., *Cersonsky, Rose K.*, _Preprint_ [Link](http://arxiv.org/abs/2503.05861).
 - **Machine Learning and Statistical Mechanics: Shared Synergies for Next Generation of Chemical Theory and Computation** – *Cersonsky, Rose K.*, Cheng, Bingqing, De Vivo, Marco, Tiwary, Pratyush, **Journal of Chemical Theory and Computation**, acs.jctc.5c00650 [Link](https://pubs.acs.org/doi/10.1021/acs.jctc.5c00650).
 
 2024
------ **The rule of four: anomalous distributions in the stoichiometries of inorganic compounds** – Gazzarrini, Elena, *Cersonsky, Rose K.*, Bercx, Marnik, Adorf, Carl S., Marzari, Nicola, **npj Computational Materials** **10** (1), 73 [Link](https://www.nature.com/articles/s41524-024-01248-z).
+----
+- **The rule of four: anomalous distributions in the stoichiometries of inorganic compounds** – Gazzarrini, Elena, *Cersonsky, Rose K.*, Bercx, Marnik, Adorf, Carl S., Marzari, Nicola, **npj Computational Materials** **10** (1), 73 [Link](https://www.nature.com/articles/s41524-024-01248-z).
 - **Expanding density-correlation machine learning representations for anisotropic coarse-grained particles** – Lin, Arthur, Huguenin-Dumittan, Kevin K., Cho, Yong-Cheol, Nigam, Jigyasa, *Cersonsky, Rose K.*, **The Journal of Chemical Physics** **161** (7), 074112 [Link](https://doi.org/10.1063/5.0210910).
 - **Machine Learning for Generating and Analyzing Thermophysical Data: Where We Are and Where We’re Going** – *Cersonsky, Rose K.*, Cheng, Bingqing, Kofke, David, Müller, Erich A., **Journal of Chemical & Engineering Data** **69** (6), 2041-2043 [Link](https://doi.org/10.1021/acs.jced.4c00207).
 
 2023
------ **Lattice energies and relaxed geometries for 2'707 organic molecular crystals and their 3'242 molecular components.** – *Cersonsky, Rose*, Pakhnova, Maria, Engel, Edgar, Ceriotti, Michele [Link](https://archive.materialscloud.org/record/2023.5).
+----
+- **Lattice energies and relaxed geometries for 2'707 organic molecular crystals and their 3'242 molecular components.** – *Cersonsky, Rose*, Pakhnova, Maria, Engel, Edgar, Ceriotti, Michele [Link](https://archive.materialscloud.org/record/2023.5).
 - **35+1 Challenges In Materials Science Being Tackled by PIs Under 35(ish) in 2023** – Allen, Monica, Bediako, Kwabena, Bowman, William, Calabrese, Michelle, Caretta, Lucas, *Cersonsky, Rose K.*, Chen, Wen, Correa, Santiago, Davidson, Rachel, Dresselhaus-Marais, Leora, Eisler, Carissa N., Furst, Ariel, Ge, Ting, Hook, Andrew, Hsu, Yi-Ting, Jia, Chunjing, Lu, Jianfeng, Lunghi, Alessandro, Messina, Marco, Moreno-Hernandez, Ivan A., Nichols, Eva, Rao, Reshma, Seifrid, Martin, Shulenberger, Katherine Emily, Simonov, Alexandr, Su, Xiao, Swearer, Dayne, Tang, Evelyn, Taylor, Mercedes, Tran, Helen, Trindade, Gustavo, Truby, Ryan, Utzat, Hendrik, Yang, Ying, Yee, Darryl W., Zhao, Shenlong, Cranford, Steve, **Matter** **6** (8), 2480-2487 [Link](https://www.sciencedirect.com/science/article/pii/S2590238523003570).
 - **Placental lesions associated with stillbirth by gestational age, according to feature importance: Results from the stillbirth collaborative research network** – , , *Cersonsky, Rose K.*, Saade, George R., Silver, Robert M., Reddy, Uma M., Goldenberg, Robert L., Dudley, Donald J., Pinar, Halit, **Placenta** **137**, 59-64 [Link](https://linkinghub.elsevier.com/retrieve/pii/S0143400423000760).
 - **A data-driven interpretation of the stability of organic molecular crystals** – *Cersonsky, Rose K.*, Pakhnova, Maria, Engel, Edgar A., Ceriotti, Michele, **Chemical Science** **14** (5), 1272-1285 [Link](http://xlink.rsc.org/?DOI=D2SC06198H).
@@ -20,25 +23,31 @@
 - **Unsupervised learning** – *Cersonsky, Rose K.*, De, Sandip, 153-181 [Link](https://linkinghub.elsevier.com/retrieve/pii/B9780323900492000251).
 
 2022
------ **A route to hierarchical assembly of colloidal diamond** – Zhou, Yuan, *Cersonsky, Rose K.*, Glotzer, Sharon C., **Soft Matter** **18** (2), 304-311 [Link](http://xlink.rsc.org/?DOI=D1SM01418H).
+----
+- **A route to hierarchical assembly of colloidal diamond** – Zhou, Yuan, *Cersonsky, Rose K.*, Glotzer, Sharon C., **Soft Matter** **18** (2), 304-311 [Link](http://xlink.rsc.org/?DOI=D1SM01418H).
 
 2021
------ **Improving sample and feature selection with principal covariates regression** – *Cersonsky, Rose K*, Helfrecht, Benjamin A, Engel, Edgar A, Kliavinek, Sergei, Ceriotti, Michele, **Machine Learning: Science and Technology** **2** (3), 035038 [Link](https://iopscience.iop.org/article/10.1088/2632-2153/abfe7c).
+----
+- **Improving sample and feature selection with principal covariates regression** – *Cersonsky, Rose K*, Helfrecht, Benjamin A, Engel, Edgar A, Kliavinek, Sergei, Ceriotti, Michele, **Machine Learning: Science and Technology** **2** (3), 035038 [Link](https://iopscience.iop.org/article/10.1088/2632-2153/abfe7c).
 - **The Diversity of Three-Dimensional Photonic Crystals** – *Cersonsky, Rose K.*, Antonaglia, J. A., Dice, B. D., Glotzer, S.C. [Link](https://glotzerlab.engin.umich.edu/photonics/index.html).
 - **The diversity of three-dimensional photonic crystals** – *Cersonsky, Rose K.*, Antonaglia, James, Dice, Bradley D., Glotzer, Sharon C., **Nature Communications** **12** (1), 2543 [Link](https://www.nature.com/articles/s41467-021-22809-6).
 
 2020
------ **Structure-property maps with kernel principal covariates regression** – Helfrecht, Benjamin A., *Cersonsky, Rose K.*, Fraux, Guillaume, Ceriotti, Michele [Link](https://archive.materialscloud.org/record/2020.80).
+----
+- **Structure-property maps with kernel principal covariates regression** – Helfrecht, Benjamin A., *Cersonsky, Rose K.*, Fraux, Guillaume, Ceriotti, Michele [Link](https://archive.materialscloud.org/record/2020.80).
 - **Structure-property maps with kernel principal covariates regression** – Helfrecht, Benjamin A, *Cersonsky, Rose K*, Fraux, Guillaume, Ceriotti, Michele, **Machine Learning: Science and Technology** **1** (4), 045021 [Link](https://iopscience.iop.org/article/10.1088/2632-2153/aba9ef).
 - **Paper: Bringing Science Education and Research together to REACT** – Travitz, Alyssa, Muniz, Ayse, Beckwith, Joanne, *Cersonsky, Rose K*, 35030 [Link](http://peer.asee.org/35030).
 - **Chemiscope: interactive structure-property explorer for materials and molecules** – Fraux, Guillaume, *Cersonsky, Rose K.*, Ceriotti, Michele, **Journal of Open Source Software** **5** (51), 2117 [Link](https://joss.theoj.org/papers/10.21105/joss.02117).
 
 2019
------ **Designing Nanoparticles for Self-Assembly of Novel Materials** – *Cersonsky, Rose K.* [Link](https://hdl.handle.net/2027.42/153520).
+----
+- **Designing Nanoparticles for Self-Assembly of Novel Materials** – *Cersonsky, Rose K.* [Link](https://hdl.handle.net/2027.42/153520).
 
 2018
------ **Pressure-tunable photonic band gaps in an entropic colloidal crystal** – *Cersonsky, Rose K.*, Dshemuchadse, Julia, Antonaglia, James, Van Anders, Greg, Glotzer, Sharon C., **Physical Review Materials** **2** (12), 125201 [Link](https://link.aps.org/doi/10.1103/PhysRevMaterials.2.125201).
+----
+- **Pressure-tunable photonic band gaps in an entropic colloidal crystal** – *Cersonsky, Rose K.*, Dshemuchadse, Julia, Antonaglia, James, Van Anders, Greg, Glotzer, Sharon C., **Physical Review Materials** **2** (12), 125201 [Link](https://link.aps.org/doi/10.1103/PhysRevMaterials.2.125201).
 - **Relevance of packing to colloidal self-assembly** – *Cersonsky, Rose K.*, Van Anders, Greg, Dodd, Paul M., Glotzer, Sharon C., **Proceedings of the National Academy of Sciences** **115** (7), 1439-1444 [Link](https://pnas.org/doi/full/10.1073/pnas.1720139115).
 
 2017
------ **Augmenting Primary and Secondary Education with Polymer Science and Engineering** – *Cersonsky, Rose K.*, Foster, Leanna L., Ahn, Taeyong, Hall, Ryan J., Van Der Laan, Harry L., Scott, Timothy F., **Journal of Chemical Education** **94** (11), 1639-1646 [Link](https://pubs.acs.org/doi/10.1021/acs.jchemed.6b00805).
+----
+- **Augmenting Primary and Secondary Education with Polymer Science and Engineering** – *Cersonsky, Rose K.*, Foster, Leanna L., Ahn, Taeyong, Hall, Ryan J., Van Der Laan, Harry L., Scott, Timothy F., **Journal of Chemical Education** **94** (11), 1639-1646 [Link](https://pubs.acs.org/doi/10.1021/acs.jchemed.6b00805).
