@@ -56,7 +56,7 @@ for item in reversed(sorted(items, key=lambda item: read_date(item.get('date', 0
 with open(OUTPUT_FILE, 'w') as outf:
     for k in reversed(range(2017, ytoday+1)):
         if len(entries[k])>0:
-            outf.write(f'{k}\n----\n')
+            outf.write(f'\n{k}\n----')
             outf.write(''.join(entries[k]))
 
 
