@@ -57,6 +57,7 @@ with open(OUTPUT_FILE, 'w') as outf:
     outf.write('---\nlayout: default\n---\n# Publication List\n')
     for k in reversed(range(2017, ytoday+1)):
         if len(entries[k])>0:
+            print(k)
             outf.write(f'\n{k}\n----\n')
             outf.write(''.join(entries[k]))
 
