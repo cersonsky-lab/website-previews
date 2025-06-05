@@ -54,6 +54,7 @@ for item in reversed(sorted(items, key=lambda item: read_date(item.get('date', 0
         entries[year].append(s)
 
 with open(OUTPUT_FILE, 'w') as outf:
+    outf.write('----\n-layout: default\n----\n')
     for k in reversed(range(2017, ytoday+1)):
         if len(entries[k])>0:
             outf.write(f'\n{k}\n----\n')
