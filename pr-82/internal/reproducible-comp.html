@@ -58,16 +58,16 @@
 
 <p>Creating reproducible environments is a longstanding challenge in computational sciences. Often, the diverse software tools and its complex interactions with various hardware makes it difficult to guarantee that software can work on multiple users’ machines. In addition, future members of the lab may need to see or run your code, even if its dependencies are no longer being maintained. Thus having a framework for managing projects and their dependencies is important.</p>
 
-<p>In our lab, we use <a href="https://git-scm.com/"><code class="language-plaintext highlighter-rouge">git</code></a>, [‘GitHub’], and <a href="https://pixi.sh/latest/"><code class="language-plaintext highlighter-rouge">pixi</code></a> for managing projects on a per-project basis. Git is a tool for version control, which can be used for saving states of a project. We recommend going through the tutorial [‘here’], which covers the most important commands for git. Many popular IDEs, such as VSCode, also contain some sort of git integration.</p>
+<p>In our lab, we use <a href="https://git-scm.com/"><code class="language-plaintext highlighter-rouge">git</code></a>, <a href="https://github.com/"><code class="language-plaintext highlighter-rouge">GitHub</code></a>, and <a href="https://pixi.sh/latest/"><code class="language-plaintext highlighter-rouge">pixi</code></a> for managing projects on a per-project basis. Git is a tool for version control, which can be used for saving states of a project. We recommend going through the <a href="https://education.molssi.org/python-package-best-practices/02-git.html">git tutorial</a> which covers the most important commands for git. Many popular IDEs, such as VSCode, also contain some sort of git integration.</p>
 
-<p>GitHub is a web service that integrates with git. GitHub allows us to host repositories (projects made with git) online and share projects and code with others. Repositories hosted on GitHub should be kept private until ready to publish.</p>
+<p>GitHub is a web service that integrates with git. GitHub allows us to host repositories (projects made with git) online and share projects and code with others. Repositories hosted on GitHub should be kept private until ready to publish. Please see read the tutorials <a href="https://education.molssi.org/python-package-best-practices/03-github.html">on GitHub</a> and <a href="https://education.molssi.org/python-package-best-practices/07-collaboration.html">on code collaboration with GitHub</a>.</p>
 
 <p>Pixi is a tool that aims to simplify environment management and create reproducible setups. It combines many of the best features of older package managers like <code class="language-plaintext highlighter-rouge">conda</code> or <code class="language-plaintext highlighter-rouge">pip</code>, and is faster than both. Notable aspects include:</p>
 
 <ol>
-  <li>Seamless integration and installation from different package indices (e.g. <code class="language-plaintext highlighter-rouge">conda-forge</code>, <code class="language-plaintext highlighter-rouge">PyPi</code>), and can automatically resolve the dependency tree.</li>
-  <li>Pixi creates and updates a lockfile that enables reproducible workflows.</li>
-  <li>Pixi environments are easy to reproduce on systems of different architectures, including CHTC workflows.</li>
+  <li>Seamless integration and installation from different package indices (e.g. <code class="language-plaintext highlighter-rouge">conda-forge</code>, <code class="language-plaintext highlighter-rouge">PyPi</code>), and can automatically resolve complex dependency trees.</li>
+  <li>Creating and updating a lockfile that enables reproducible workflows.</li>
+  <li>Easy reproducibility on systems of different architectures, including CHTC workflows.</li>
 </ol>
 
 <p>Please follow these steps for <a href="https://pixi.sh/latest">installation and documentation</a>.</p>
