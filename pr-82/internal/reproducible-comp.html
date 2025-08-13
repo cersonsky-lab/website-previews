@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Reproducible Computational Environments. | The Cersonsky Lab at UW-Madison</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Reproducible Computational Environments." />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The Cersonsky Lab is a research group based at the University of Wisconsin - Madison, Department of Chemical and Biological Engineering" />
+<meta property="og:description" content="The Cersonsky Lab is a research group based at the University of Wisconsin - Madison, Department of Chemical and Biological Engineering" />
+<meta property="og:site_name" content="The Cersonsky Lab at UW-Madison" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Reproducible Computational Environments." />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"The Cersonsky Lab is a research group based at the University of Wisconsin - Madison, Department of Chemical and Biological Engineering","headline":"Reproducible Computational Environments.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/website-previews/pr-82/assets/img/logo.png"}},"url":"/website-previews/pr-82/internal/reproducible-comp.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/website-previews/pr-82/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/website-previews/pr-82/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+      <div class="wrapper">
+          <header>
+
+              <h1><a href="/website-previews/pr-82/">The Cersonsky Lab at UW-Madison</a></h1>
+              <a href="/website-previews/pr-82/"><img src="/website-previews/pr-82/assets/img/logo.png" alt="Logo" /></a>
+
+                  <p>The Cersonsky Lab is a research group based at the University of Wisconsin - Madison, Department of Chemical and Biological Engineering</p>
+
+                  <strong><a>Rose K. Cersonsky</a> &nbsp(<a href="https://rosecersonsky.com/CV.pdf">CV</a> | <a href="https://www.rosecersonsky.com">Webpage</a>)</strong><br>
+                  <strong><a href="/website-previews/pr-82/members/">Current Group Members</a><br></strong>
+                  <strong><a href="/website-previews/pr-82/publications">Publications</a><br></strong>
+                  <strong><a href="/website-previews/pr-82/research">Research Philosophies</a><br></strong>
+                  <strong><a href="/website-previews/pr-82/fun">Shenanigans</a><br></strong>
+                  <strong><a href="/website-previews/pr-82/internal/">Internal Wiki</a><br></strong>
+                  <strong><a href="/website-previews/pr-82/join">Join the Cersonsky Lab!</a><br></strong>
+                  <br><strong><a href="https://github.com/cersonsky-lab"> GitHub</a>&nbsp; | &nbsp; <a href="https://twitter.com/LabOfScience"> Twitter</a><br></strong>
+                  Last Updated: 8/13/2025
+</header>
+          <section>
+
+              <h1 id="cersonsky-lab-commandments-for-reproducible-computational-environments">Cersonsky Lab Commandments for Reproducible Computational Environments.</h1>
+
+<p>Creating reproducible environments is a longstanding challenge in computational sciences. Often, the diverse software tools and its complex interactions with various hardware makes it difficult to guarantee that software can work on multiple users’ machines. In addition, future members of the lab may need to see or run your code, even if its dependencies are no longer being maintained. Thus having a framework for managing projects and their dependencies is important.</p>
+
+<p>In our lab, we use <a href="https://git-scm.com/"><code class="language-plaintext highlighter-rouge">git</code></a>, [‘GitHub’], and <a href="https://pixi.sh/latest/"><code class="language-plaintext highlighter-rouge">pixi</code></a> for managing projects on a per-project basis. Git is a tool for version control, which can be used for saving states of a project. We recommend going through the tutorial [‘here’], which covers the most important commands for git. Many popular IDEs, such as VSCode, also contain some sort of git integration.</p>
+
+<p>GitHub is a web service that integrates with git. GitHub allows us to host repositories (projects made with git) online and share projects and code with others. Repositories hosted on GitHub should be kept private until ready to publish.</p>
+
+<p>Pixi is a tool that aims to simplify environment management and create reproducible setups. It combines many of the best features of older package managers like <code class="language-plaintext highlighter-rouge">conda</code> or <code class="language-plaintext highlighter-rouge">pip</code>, and is faster than both. Notable aspects include:</p>
+
+<ol>
+  <li>Seamless integration and installation from different package indices (e.g. <code class="language-plaintext highlighter-rouge">conda-forge</code>, <code class="language-plaintext highlighter-rouge">PyPi</code>), and can automatically resolve the dependency tree.</li>
+  <li>Pixi creates and updates a lockfile that enables reproducible workflows.</li>
+  <li>Pixi environments are easy to reproduce on systems of different architectures, including CHTC workflows.</li>
+</ol>
+
+<p>Please follow these steps for <a href="https://pixi.sh/latest">installation and documentation</a>.</p>
+
+<p><strong>Note</strong>: If you are adding Pixi to an existing python software project with a <code class="language-plaintext highlighter-rouge">pyproject.toml</code>, running the usual <code class="language-plaintext highlighter-rouge">pixi init</code> command in your root directory will append Pixi related tables to the end of <code class="language-plaintext highlighter-rouge">pyproject.toml</code>. This is fine.</p>
+
+<p>It is recommended that multiple collaborators working on the same project use the same Pixi environment. This eliminates the chance of issues arising from differing dependencies between machines, thus making it easier to collaborate and reproduce code.</p>
+
+
+          </section>
+      </div>
+    <script src="/website-previews/pr-82/assets/js/scale.fix.js"></script>
+  </body>
+</html>
